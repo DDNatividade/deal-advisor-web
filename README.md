@@ -12,7 +12,7 @@ Deal Advisor Web is the official website for **Deal Advisor**, an artificial int
 
 ---
 
-## 🎨 Design & Technology
+## 🎨 Design & Technology (SO FAR)
 
 The website is designed with simplicity and performance in mind:
 
