@@ -32,3 +32,21 @@ deal-advisor-web/
 ├── img/
 │ └── ... # Website images and icons
 └── README.md # Project documentation
+
+## 🌱 Future Improvements
+
+Implement a dynamic download section that detects the user’s OS.
+
+Add a blog or news section for updates and AI tips.
+
+Integrate analytics to track user engagement.
+
+Enhance accessibility for better usability across all devices.
+
+## 📄 License
+
+This project is licensed under the MIT License
+💬 Contact
+## For questions or feedback, please contact the project maintainer:
+Email: codingdaniel2@gmail.com
+Website: [https://dealadvisor.ai](https://www.linkedin.com/in/danieldnatividade/)
