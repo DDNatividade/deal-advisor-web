@@ -22,5 +22,13 @@ The website is designed with simplicity and performance in mind:
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure (So far)
 
+deal-advisor-web/
+│
+├── DealAdvisor.html # Main landing page
+├── css/
+│ └── styles.css # Stylesheet for the website
+├── img/
+│ └── ... # Website images and icons
+└── README.md # Project documentation
