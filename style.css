@@ -1,0 +1,136 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo oscuro general */
+body {
+    margin: 0;
+    /* elimina márgenes globales */
+    width: 100%;
+    /* ocupa todo el ancho */
+    min-height: 100vh;
+    /* asegura que el body al menos tenga la altura de la ventana */
+    background-color: rgb(28 34 39);
+    color: rgb(255, 255, 255);
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Menú principal */
+ul {
+    background-color: rgb(41, 44, 47);
+    display: flex;
+    justify-content: space-between;
+    /* logo izq, resto der */
+    align-items: center;
+    padding: 1% 1.5%;
+    /* márgenes en % para adaptarse al ancho */
+    list-style: none;
+    width: 100%;
+
+}
+
+/* Bloque derecho (li + botón) */
+.menu-right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    /* separación relativa */
+}
+
+/* Logo */
+#logo {
+    width: 100px;
+    /* ancho fijo decente */
+    max-width: 12vw;
+    /* o relativo si prefieres responsive */
+    height: auto;
+}
+
+
+/* Item del menú */
+ul li {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.1vw;
+    /* tamaño relativo al ancho de viewport */
+}
+
+/* Botón Login */
+#botonMenu {
+    background-color: #FFD700;
+    /* amarillo dorado */
+    border: none;
+    padding: 0.8em 1.5em;
+    /* usa em para escalar con la fuente */
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#botonMenu:hover {
+    background-color: #FFC300;
+}
+
+#Principal {
+    background-image: url(/img/patron.png);
+    width: 100%;
+    min-height: 80vh;
+    /* ajusta la altura que quieras */
+    display: flex;
+    justify-content: center;
+    /* centra en horizontal */
+    align-items: center;
+    /* centra en vertical */
+    padding: 2%;
+}
+
+#Download {
+    background-color: #FFD700;
+    /* amarillo dorado */
+    border: none;
+    padding: 0.8em 1.5em;
+    /* usa em para escalar con la fuente */
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#section1 {
+    max-width: 800px;
+    /* para que no se expanda de lado a lado */
+    text-align: center;
+}
+
+#section1 h1 {
+    padding-bottom: 3%;
+}
+
+#section1 h2 {
+    color: #FFD700;
+    padding-bottom: 5%;
+}
+
+
+
+.clear {
+    flex: none;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    /* elimina scroll horizontal fantasma */
+}
